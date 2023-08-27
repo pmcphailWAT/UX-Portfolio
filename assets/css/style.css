@@ -19,7 +19,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a :hover {
   color: #37b3ed;
   text-decoration: none;
 }
@@ -241,7 +241,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.png") top center;
   background-size: cover;
 }
 
@@ -378,6 +378,22 @@ section {
   margin-bottom: 0;
 }
 
+.illustrator-icon {
+  background: url('../img/adobe-illustrator.svg');
+  height: 40px;
+  width: 40px;
+  display: block;
+  /* Other styles here */
+}
+
+.adobe-xd-icon {
+  background: url('../img/adobe-xd.svg');
+  height: 40px;
+  width: 40px;
+  display: block;
+  /* Other styles here */
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -430,7 +446,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
